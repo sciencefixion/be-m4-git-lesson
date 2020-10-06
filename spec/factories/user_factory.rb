@@ -13,7 +13,7 @@ FactoryBot.define do
     end
 
     sequence :address do
-      Faker::HarryPotter.location
+      Faker::JapaneseMedia::DragonBall.planet
     end
 
     sequence :password do
@@ -23,7 +23,3 @@ FactoryBot.define do
     role 0
   end
 end
-
-
-
-

@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :item do
     sequence :title do
-      Faker::Hipster.word
+      Faker::JapaneseMedia::DragonBall.character
     end
 
     sequence :description do
