@@ -7,3 +7,4 @@ class CategoriesController < ApplicationController
     @category = Category.find_by(slug: params[:category])
   end
 end
+# this is a change
